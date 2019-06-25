@@ -1,0 +1,187 @@
+Vinculación
+* Planificación  
+  * Datos de Cliente
+    Nombre
+    Persona al que va dirigida el contrato
+    Domicilio
+    Cargo del cliente
+    Correo electronico
+    Telefono de la empresa
+    Telefono del cliente
+    Actividad de la empresa
+    Número de cliente 
+
+  * Analisis Solicitados
+    Ejemplos:
+  	Humedad (alimentos) 		                   Acidez (agua potable y purificada)
+  	Proteína (alimentos) 		                   Alcalinidad (agua potable y purificada)
+  	Cenizas (alimentos) 		                   PH (agua)
+  	Grasa (alimentos) 			                   Cloruros (agua potable y purificada)
+  	PH (alimentos) 				                     Cloro (agua potable y purificada)
+  	Dureza (agua potable y purificada) 	       Conductividad (agua potable y purificada)
+  	Turbidez (agua potable y purificada)
+
+  * Recursos 
+    a) Recursos (Ingresos propios)
+		SI APLICA 		NO APLICA 		OTRO:
+  * Costos por cada anlisis solicitado
+      DESCRIPCIÓN 					                     COSTO 	     NUM. DE PRUEBAS IMPORTE
+      Humedad                                   $ 150.00 1
+      Proteína                                  $ 280.00
+      Cenizas                                   $ 170.00 1
+      Grasa                                     $ 265.00 1
+      PH                                        $ 106.00
+      Dureza                                    $ 106.00
+      Turbidez                                  $ 106.00
+      Acidez (agua potable y purificada)        $ 106.00
+      Alcalinidad (agua potable y purificada)   $ 106.00
+      PH (agua)                                 $ 106.00
+      Cloruros (agua potable y purificada)      $ 106.00
+      Cloro (agua potable y purificada)         $ 106.00
+      Conductividad (agua potable y purificada) $ 106.00
+
+                                                IMPORTE     2323.23
+                                                IVA         
+                                                TOTAL       875
+
+  * Evaluación del servicio por parte del cliente.
+    * Fecha de Evaluación.
+    * Nombre de la persona que responde a la evaluación.
+    * Estado del servicio (Se cumplio con el servicio solicitado)
+      * Si.
+      * No.
+    * Valoración del servicio otorgado.
+      * Primera valoración.
+        * Atención por parte del personal de Servicios Tecnológicos .
+        * Rapidez de respuesta para atender su solicitud de servicio.
+        * Materiales impresos proporcionados.
+        * Instalaciones utilizadas para el desarrollo del Servicio Tecnológico.
+        * Cumplimiento de plazos establecidos para desarrollar el Servicio Tecnológico.
+        * Calidad del Servicio Tecnológico prestado.
+        * Gestión de cobros (en su caso).
+          * Codigo.
+            E = EXCELENTE
+            B= BUENO
+            R= REGULAR
+            M=MALO
+            MM= MUY MALO
+      * Sengunda valoración.
+        * EN ESCALA DE 1 A 10 CALIFIQUE LO SIGUIENTE:
+          * Innovación del servicio ofrecido N/A
+          * Originalidad del servicio ofrecido N/A
+          * Aportación para la formación su capital humano N/A
+          * Evaluación del instructor N/A
+          * Evaluación del Global del Servicio Tecnológico N/A
+      * Comentarios para mejora el servicio que proporciono.
+        * ....
+      * Firma del cliente.
+    
+
+  * Otros
+    * Naturaleza del servicio: ejemplo: Prueba de analisis del laboratorio
+    * Lista de Verificación de la muestra. (status de solicitud de la muestra)
+        Muestra aceptada 
+        Muestra no aceptada
+    * Requisitos legales y reglamentarios
+      Convenio
+      Contrato
+      Otros
+    * Fecha en la que fue emitida la planificación
+    * Fecha de entrega de resultados.
+    * Fecha en la que concluyo.
+
+  * Contrato:
+    * Fecha del contrato.
+    * Nombre del cliente.
+    * Nombre del contratante.
+    * Puede ser una persona Fisica o Moral.
+    * Numero de Folio.
+    * Numero de Clave de Contribuyentes.
+    * Lugar (Ciudad).
+    * Fecha en caso de duplicado.
+    * Firmas por:
+      * Representante de la UTT.
+      * Por el contratante.
+      * 2 Testigos.
+        * Jefa de la Carrea de procesos Alimentarios.
+        * Responsable de area juridica.
+
+
+Alimentos
+* Hoja Viajera (Lista de verificación)(LISTA DE VERIFICACIÓN Y/O CHEQUEO PARA EL CONTROL DE MUESTRAS RECEPCIONADAS):
+  * Datos de importantes de la Hoja.
+    * Nombre de la muestra inspeccionada.
+    * Fecha de recepción.
+    * Codigo de la muestra.
+    * Fecha de entrega al laboratorio.
+    * Nombre y firma de quine la recibe.
+    * Nombre y firma de quien entrega 
+  * Analisis requeridos:
+
+    /*
+    *   (Aqui es donde los datos se repiten con lo de "Vinculación") INICIO
+    */
+
+    * Ejemplos:
+      Humedad (alimentos)                        Acidez (agua potable y purificada)
+      Proteína (alimentos)                       Alcalinidad (agua potable y purificada)
+      Cenizas (alimentos)                        PH (agua)
+      Grasa (alimentos)                          Cloruros (agua potable y purificada)
+      PH (alimentos)                             Cloro (agua potable y purificada)
+      Dureza (agua potable y purificada)         Conductividad (agua potable y purificada)
+      Turbidez (agua potable y purificada)
+
+
+    /*
+    *   (Aqui es donde los datos se repiten con lo de "Vinculación") FINAL
+    */
+
+    * 1 Identificación y manejo de la(s) muestra(s) (Área de Vinculación, servicios tecnológicos) 
+        DESCRIPCIÓN                                                                         RESULTADOS
+        La(s) muestra(s) contiene(n) un código de identificación?                            Sí No NA
+        La(s) muestra(s) contiene(n) fecha de muestreo o de producción?                      Sí No NA
+        Se notifica de las adiciones, desviaciones o exclusiones del método?                 Sí No NA
+        Se notifica al cliente de la fecha de entrega del resultado y del informe?           Sí No NA
+        Se notifica al cliente que sin la aprobación del laboratorio queda prohibida su
+        reproducción total o parcial del informe de resultados?                              Sí No NA
+    * 3 Peso y tamaño de la(s) muestra(s) (Área de Laboratorio)         
+        DESCRIPCIÓN                                                                         RESULTADOS
+        La(s) cantidad(es) de las muestras son de acuerdo al tipo de análisis?                Sí No NA
+        La(s) unidades de medida(s) registradas son correctas?                                Sí No NA
+        El tamaño de la muestra es de acuerdo a lo requerido para el análisis?                Sí No NA
+    * 4 Condiciones de la(s) muestra(s)
+        DESCRIPCIÓN                                                                         RESULTADOS
+        La preservación de la(s) muestras se denota acorde al tipo de análisis?              Sí No NA
+        El transporte de la muestra se denota acorde al tipo de análisis?                    Sí No NA
+        El cliente es notificado si su muestra no cumple con la descripción requerida?       Sí No NA
+    * OBSERVACIONES (Por parte del quien analice en el alaboratorio):}
+
+* Informe de resultados:
+  * Nombre del cliente.
+  * Dirección.
+  * Telefono.
+  * Correo.
+  * Fecha de recepción.
+  * ID de muestra: ejemplo: "Sal de grano".
+  * Codigo de muestra: ejemplo: "MM-MIN-001".
+  * Conducto: ejemplo: "C. Pablo Camarillo Barragán"
+  * Fecha de analis.
+  * Fecha de reporte.
+  * Hora de analisis.
+  * Lugar de acopio.
+  * Descripción.
+  * Observaciones.
+    * Cuadro de Observaciones:
+      Parámetro               Método                  Resultado   Unidad
+      Humedad                 NOM-116-SSA1-1994         11.01       %
+      Cloruro de sodio        NOM-040-SSA1-1993         57.21       %
+      Residuos insolubles en  NOM-040-SSA1-1993         0.17        %
+      agua  
+      Cenizas                 NMX-F-607-NORMEX-2013     87.80       %
+      pH                                                9.6         pH
+
+    * Nota 
+        Nota: Los resultados contenidos en este informe corresponden única y exclusivamente a los
+        obtenidos durante el análisis de las muestras recibidas.
+    * Quien realizo.
+    * Quie Autorizo.

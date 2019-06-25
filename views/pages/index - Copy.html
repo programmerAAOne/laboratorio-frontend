@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Vinculación Regstro de clientes</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="apple-touch-icon" href="https://i.imgur.com/QRAUqs9.png">
+  <link rel="shortcut icon" href="https://i.imgur.com/QRAUqs9.png">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pixeden-stroke-7-icon@1.2.3/pe-icon-7-stroke/dist/pe-icon-7-stroke.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.0/css/flag-icon.min.css">
+  <link rel="stylesheet" href="assets/css/cs-skin-elastic.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+
+	<!-- Menu Lateral -->
+	<aside id="left-panel" class="left-panel">
+	  <nav class="navbar navbar-expand-sm navbar-default">
+	    <div id="main-menu" class="main-menu collapse navbar-collapse">
+	      <ul class="nav navbar-nav">
+
+	        <li class="active">
+	            <a href="index.html"><i class="menu-icon fa fa-laptop"></i>Dashboard </a>
+	        </li>
+	        <li class="menu-title">UI elements</li><!-- /.menu-title -->
+	          <li class="menu-item-has-children dropdown">
+	            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-cogs"></i>Components</a>
+	          </li>
+	          <li class="menu-item-has-children dropdown">
+	              <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-table"></i>Tables</a>
+	          </li>
+	          <li class="menu-item-has-children dropdown">
+	              <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-th"></i>Forms</a>
+	              <ul class="sub-menu children dropdown-menu">
+	                  <li><i class="menu-icon fa fa-th"></i><a href="forms-basic.html">Basic Form</a></li>
+	                  <li><i class="menu-icon fa fa-th"></i><a href="forms-advanced.html">Advanced Form</a></li>
+	              </ul>
+	          </li>
+
+	          <li class="menu-title">Icons</li><!-- /.menu-title -->
+
+	          <li class="menu-item-has-children dropdown">
+	              <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-tasks"></i>Icons</a>
+	          </li>
+	          <li>
+	              <a href="widgets.html"> <i class="menu-icon ti-email"></i>Widgets </a>
+	          </li>
+	          <li class="menu-title">Extras</li><!-- /.menu-title -->
+	          <li class="menu-item-has-children dropdown">
+	              <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-glass"></i>Pages</a>              
+	          </li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </nav>
+	</aside>
+	<!-- Menu Lateral -->
+
+
+
+	
+	<div id="right-panel" class="right-panel">
+
+		<!-- HEADER -->
+		<header id="header" class="header">
+			<div class="top-left">
+				<div class="navbar-header">
+				  <a class="navbar-brand" href="./">
+				  	<!-- <img src="images/logo.png" alt="Logo"> -->
+				  	Logo App
+				  </a>
+				  <a class="navbar-brand hidden" href="./">
+				  	<!-- <img src="images/logo2.png" alt="Logo"> -->
+				  	Logo App
+				  </a>
+				  <a id="menuToggle" class="menutoggle"><i class="fa fa-bars"></i></a>
+				</div>
+			</div>
+
+
+			<div class="top-right">
+				<div class="header-menu"> <!-- Header menu -->
+
+					<div class="header-left">
+						<div class="dropdown for-notification">
+						  <button class="btn btn-secondary dropdown-toggle" type="button" id="notification" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    <i class="fa fa-bell"></i>
+						    <span class="count bg-danger">3</span>
+						  </button>
+						  <div class="dropdown-menu" aria-labelledby="notification">
+						    <p class="red">Tienes 3 nuevas notificaciones</p>
+						    <a class="dropdown-item media" href="#">
+						      <i class="fa fa-check"></i>
+						      <p>Muestra Cacahuates Rechazada!</p>
+						    </a>
+						    <a class="dropdown-item media" href="#">
+						      <i class="fa fa-info"></i>
+						      <p>Muestra Jugo Finalizada.</p>
+						    </a>
+						    <a class="dropdown-item media" href="#">
+						      <i class="fa fa-warning"></i>
+						      <p>Muestra Galletas Rechazada!</p>
+						    </a>
+						  </div>
+						</div>
+					</div>
+
+
+
+					<div class="user-area dropdown float-right">
+					  <a href="#" class="dropdown-toggle active" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					    <img class="user-avatar rounded-circle" src="images/admin.jpg" alt="User Avatar">
+					  </a>
+
+					  <div class="user-menu dropdown-menu">
+					    <!-- <a class="nav-link" href="#"><i class="fa fa- user"></i>My Profile</a> -->
+					    <!-- <a class="nav-link" href="#"><i class="fa fa- user"></i>Notifications <span class="count">13</span></a> -->
+					    <a class="nav-link" href="#"><i class="fa fa -cog"></i>Configuración</a>
+					    <a class="nav-link" href="#"><i class="fa fa-power -off"></i>Cerrar sesión</a>
+					  </div>
+					</div>
+
+				</div>
+			</div> <!-- Header menu -->
+
+		</header>
+		<!-- HEADER -->
+
+
+
+		<!-- TITULO PANEL -->
+		<div class="breadcrumbs">
+		  <div class="breadcrumbs-inner">
+		    <div class="row m-0">
+
+					<div class="col-sm-4">
+					  <div class="page-header float-left">
+							<div class="page-title">
+							  <h1>Panel</h1>
+							</div>
+					  </div>
+					</div>
+
+					<div class="col-sm-8">
+					  <div class="page-header float-right">
+							<div class="page-title">
+							  <ol class="breadcrumb text-right">
+							    <li><a href="#">Registro</a></li>
+							    <li><a href="#">Clientes</a></li>
+							    <!-- <li class="active">Basic table</li> -->
+							  </ol>
+							</div>
+					  </div>
+					</div>
+
+		    </div>
+		  </div>
+		</div>
+		<!-- TITULO PANEL -->
+
+
+
+		<!-- CONTENIDO. -->
+		<div class="content">
+
+
+			<!-- Contenido de formulario. -->
+			<div class="animated fadeIn">
+				<div class="row">
+
+					
+					<div class="col-lg-6"> <!-- Contenedor Card -->
+						<div class="card">
+							<div class="card-header">
+                <strong class="card-title">Datos del cliente</strong>
+              </div>
+
+							<div class="card-body card-block">
+								<div class="form-group">
+									<label for="name-client" class=" form-control-label">
+										Nombre del cliente
+									</label>
+									<input type="text" id="nameClient" placeholder="Ingrese el nombre del cliente" class="form-control">
+								</div>
+								<div class="form-group">
+									<label for="person-result" class=" form-control-label">Persona a quien va dirigido el resultado</label>
+									<input type="text" id="personResult" placeholder="Nombre de la persona" class="form-control">
+								</div>
+								<div class="form-group">
+									<label for="address" class=" form-control-label">
+										Domicilio
+									</label>
+									<input type="text" id="address" placeholder="Domcilio del cliente" class="form-control">
+								</div>
+								<div class="row form-group">
+									<div class="col-8">
+										<div class="form-group">
+											<label for="state" class=" form-control-label">
+												Estado
+											</label>
+											<input type="text" id="state" placeholder="Ingrese Estado de cliente" class="form-control">
+										</div>
+									</div>
+									<div class="col-8">
+										<div class="form-group">
+											<label for="postal-code" class=" form-control-label">
+												Codigo postal
+											</label>
+											<input type="text" id="postal-code" placeholder="Codigo postal" class="form-control">
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="client-c" class=" form-control-label">
+										Cargo del cliente
+									</label>
+									<input type="text" id="client-c" placeholder="Cargo del cliente" class="form-control">
+								</div>
+								<div class="form-group">
+									<label for="email" class=" form-control-label">
+										Correo electronico del cliente
+									</label>
+									<input type="email" id="country" placeholder="Correo electronico del cliente" class="form-control">
+								</div>
+								<div class="form-group">
+									<label for="number-e" class=" form-control-label">
+										Telefono de la empresa
+									</label>
+									<input type="number-e" id="country" placeholder="Telefono de la empresa" class="form-control">
+								</div>
+								<div class="form-group">
+									<label for="number-c" class=" form-control-label">
+										Telefono del cliente
+									</label>
+									<input type="number-c" id="country" placeholder="Telefono del cliente" class="form-control">
+								</div>
+								<div class="form-group">
+									<label for="activity" class=" form-control-label">
+										Activida de la empresa del cliente
+									</label>
+									<input type="text" id="activity" placeholder="Activida de la empresa" class="form-control">
+								</div>
+								<div class="form-group">
+									<label for="client-number" class=" form-control-label">
+										Numero de cliente
+									</label>
+									<input type="text" id="client-number" placeholder="Country name" class="form-control">
+								</div>
+							</div>
+           
+						</div>
+					</div> <!-- Contenedor Card -->
+
+					<div class="col-lg-6"> <!-- Contenedor Card -->
+						<div class="card">
+							<div class="card-header">
+                <strong class="card-title">Analisis Solicitados</strong>
+              </div>
+
+              <div class="card-body card-block">
+              	
+              		<!-- CHECKLIST -->
+              		<div class="form-check form-check-inline pb-2" style="width: 100%">
+								  	<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+									  <label class="form-check-label" for="inlineCheckbox1">Humedad (alimentos)</label>
+									</div>
+									<div class="form-check form-check-inline pb-2" style="width: 100%">
+									  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option1">
+									  <label class="form-check-label" for="inlineCheckbox2">Acidez (agua potable y purificada)</label>
+									</div>
+              		<div class="form-check form-check-inline pb-2" style="width: 100%">
+								  	<input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option1">
+									  <label class="form-check-label" for="inlineCheckbox3">Proteína (alimentos)</label>
+									</div>
+									<div class="form-check form-check-inline pb-2" style="width: 100%">
+									  <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option1">
+									  <label class="form-check-label" for="inlineCheckbox4">Acidez (agua potable y purificada)</label>
+									</div>
+									<div class="form-check form-check-inline pb-2" style="width: 100%">
+								  	<input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option1">
+									  <label class="form-check-label" for="inlineCheckbox5">Cenizas (alimentos)</label>
+									</div>
+									<div class="form-check form-check-inline pb-2" style="width: 100%">
+									  <input class="form-check-input" type="checkbox" id="inlineCheckbox6" value="option1">
+									  <label class="form-check-label" for="inlineCheckbox6">PH (agua)</label>
+									</div>
+              		<div class="form-check form-check-inline pb-2" style="width: 100%">
+								  	<input class="form-check-input" type="checkbox" id="inlineCheckbox7" value="option1">
+									  <label class="form-check-label" for="inlineCheckbox7">Grasa (alimentos) </label>
+									</div>
+									<div class="form-check form-check-inline pb-2" style="width: 100%">
+									  <input class="form-check-input" type="checkbox" id="inlineCheckbox8" value="option1">
+									  <label class="form-check-label" for="inlineCheckbox8">Cloruros (agua potable y purificada)</label>
+									</div>
+									<div class="form-check form-check-inline pb-2" style="width: 100%">
+								  	<input class="form-check-input" type="checkbox" id="inlineCheckbox9" value="option1">
+									  <label class="form-check-label" for="inlineCheckbox9">PH (alimentos)</label>
+									</div>
+									<div class="form-check form-check-inline pb-2" style="width: 100%">
+									  <input class="form-check-input" type="checkbox" id="inlineCheckbox10" value="option1">
+									  <label class="form-check-label" for="inlineCheckbox10">Cloro (agua potable y purificada)</label>
+									</div>
+              		<div class="form-check form-check-inline pb-2" style="width: 100%">
+								  	<input class="form-check-input" type="checkbox" id="inlineCheckbox11" value="option1">
+									  <label class="form-check-label" for="inlineCheckbox11">Dureza (agua potable y purificada)</label>
+									</div>
+									<div class="form-check form-check-inline pb-2" style="width: 100%">
+									  <input class="form-check-input" type="checkbox" id="inlineCheckbox12" value="option1">
+									  <label class="form-check-label" for="inlineCheckbox12">Conductividad (agua potable y purificada)</label>
+									</div>
+
+									<div class="form-check form-check-inline pb-2" style="width: 100%">
+								  	<input class="form-check-input" type="checkbox" id="inlineCheckbox13" value="option1">
+									  <label class="form-check-label" for="inlineCheckbox13">Turbidez (agua potable y purificada)</label>
+									</div>
+ 									<!-- CHECKLIST -->
+
+              </div>
+
+              <div class="card-header">
+                <strong class="card-title">Recursos</strong>
+              </div>
+
+              <table class="table">
+              	<thead>
+              		<tr>
+              			<th scope="col">Descripción</th>
+              			<th scope="col">Costo</th>
+              			<th scope="col">Num. de Pruebas</th>
+              			<th scope="col">Importe</th>
+              		</tr>
+              	</thead>
+              	<tbody>
+              		<tr>
+              			<td>Humedad</td>
+              			<td>$ 444.3</td>
+              			<td>
+            					<input 
+            						class="form-control"
+            						style="width: auto;" 
+            						type="number"
+            						name="quantity"
+            						min="1"
+            						max="100"
+            					>
+              			</td>
+              			<td>$ 222.22</td>
+              		</tr>
+              		<tr>
+              			<td>Cenizas</td>
+              			<td>$ 224.3</td>
+              			<td>
+            					<input 
+            						class="form-control"
+            						style="width: auto;" 
+            						type="number"
+            						name="quantity"
+            						min="1"
+            						max="100"
+            					>
+              			</td>
+              			<td>$ 0.00</td>
+              		</tr>
+              		<tr>
+              			<td>Humedad</td>
+              			<td>$ 444.3</td>
+              			<td>
+            					<input 
+            						class="form-control"
+            						style="width: auto;" 
+            						type="number"
+            						name="quantity"
+            						min="1"
+            						max="100"
+            					>
+              			</td>
+              			<td>$ 222.22</td>
+              		</tr>
+              		<tr>
+              			<td></td>
+              			<td></td>
+              			<td>Importe</td>
+              			<td>$ 653.22</td>
+              		</tr>
+              		<tr>
+              			<td></td>
+              			<td></td>
+              			<td>IVA</td>
+              			<td>$ 0.00</td>
+              		</tr>
+              		<tr>
+              			<td></td>
+              			<td></td>
+              			<td>Total</td>
+              			<td>$ 754.00</td>
+              		</tr>
+              	</tbody>
+              </table>
+
+              <!-- Send Button -->
+							<div class="p-4 mt-5">
+								 <button id="payment-button" type="submit" class="btn btn-lg btn-info btn-block">
+                    <!-- <i class="fa fa-lock fa-lg"></i>&nbsp; -->
+                    <span id="payment-button-amount">Guardar</span>
+                </button>
+							</div>
+
+						</div>
+
+					</div> <!-- Contenedor Card -->
+
+
+				</div>
+			</div>
+			<!-- Contenido de formulario. -->
+
+		</div>
+		<!-- CONTENIDO. -->
+		<div class="clearfix"></div>
+
+
+	</div>
+
+
+
+	
+
+
+
+	<!-- Scripts -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@2.2.4/dist/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.4/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/jquery-match-height@0.7.2/dist/jquery.matchHeight.min.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+</html>
